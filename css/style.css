@@ -1,0 +1,258 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor1: #5656ff;
+    --cor2: #1718EB;
+    --cor3: #0B0B6B;
+    --cor4: #FFCF00;
+    --cor5: #E65B03;
+
+    --text-color1: #000;
+    --text-color2: #FFF;
+    --text-color3: #d2d2d2;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+.icon {
+    width: 20px;
+}
+
+/* Barra de navegação */
+
+header {
+} 
+
+#menu {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+    padding: 0;
+}
+
+.offcanvas-lg .offcanvas-header {
+    border-bottom: 2px solid rgba(3, 3, 3, 0.5);
+}
+
+.offcanvas-lg a {
+color: rgba(0, 0, 0, 0.5);
+}
+
+.offcanvas-lg .nav-link .active {
+color: rgba(0, 0, 0, 1) !important;
+font-weight: bold;
+}
+
+.offcanvas-lg a:hover {
+color: rgba(0, 0, 0, 0.7);
+font-weight: bold;
+}
+
+#offcanvas-btn {
+background-color: transparent !important;
+}
+
+.navbar,
+.navbar:hover {
+    background: var(--cor3) !important;
+}
+
+#logo {
+    width: 80px;
+}
+
+.navbar-brand {
+    font-weight: 700;
+} 
+
+.navbar-brand:hover, 
+#navbarNav a:hover {
+    font-weight: 700;
+}
+
+.nav-expand-lg, 
+.navbar-nav, 
+.nav-link { 
+    padding: 1rem .8rem;
+}
+
+.btn {
+    background: var(--cor2);
+    border: var(--cor2);
+}
+
+.btn:hover {
+    color: var(--text-color1);
+    background: var(--cor4);
+    border: var(--cor4);
+}
+
+.carousel-item {
+    height: 100%;
+    background: #FFF no-repeat center center/cover;
+    
+}
+
+#div-form {
+    background: var(--cor3);
+}
+
+form {
+    background: var(--text-color2);
+    border-radius: 5px;
+    max-width: 1100px;
+}
+
+.form-nav {
+    width: 48%;
+}
+
+main {
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* #top-cidades-br {
+    display: flex;
+    gap: 16px;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+} */
+
+/* #top-cidades-br .carousel-item {
+    max-width: 150px;
+} */
+
+/* #top-cidades-br .carousel-item {
+    min-width: 220px;
+    max-width: 350px;
+}
+
+#btn-carousel {
+    background: red;
+    min-width: 100px;
+    max-width: 150px;
+}
+
+#top-cidades-br {
+    min-width: 240px;
+    max-width: 950px;
+}
+
+#hospedagens .card {
+    min-width: 280px;
+    max-width: 350px;
+    margin: auto;
+}
+
+#pacotes .card {
+    min-width: 300px;
+} */
+
+#hospedagens .card,
+#promocoes .card,
+#passagens .card,
+#destinos .card {
+    background: #FFF;
+    min-width: 230px !important;
+    margin: 0 1rem 1rem 0;
+}
+
+#ver-mais .btn {
+    font-size: .8em;
+    color: var(--text-color1);
+    text-decoration: none;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin: 10px 0;
+}
+
+#ver-mais a:hover {
+    background: var(--cor4);
+    font-size: 1em;
+    margin: 8px 0;
+}
+
+.rate {
+    display: inline;
+    color: var(--text-color2);
+    background: rgb(0, 164, 0);
+    border-radius: 5px;
+    padding: 0px 5px;
+    margin-right: 5px;
+}
+
+.bi-star-fill,
+.bi-star-half,
+.bi-star {
+    color: #FFCF00;
+}
+/*
+ #top-cidades-br {
+    min-height: 300px;
+} */
+
+/* footer */
+
+footer {
+    color: var(--text-color3);
+    text-align: center;
+    background: var(--cor3);
+}
+
+#footer-logo {
+    width: 200px;
+}
+
+footer a {
+    color: var(--text-color3) !important;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: var(--text-color2) !important;
+    text-decoration: underline;
+}
+
+footer i, footer i:hover {
+    font-size: 1.2em;
+}
+
+/* @media (min-width: 650px) {
+    
+    #pacotes .card {
+        min-width: 500px;
+    }
+    
+} */
+
+@media (min-width: 650px) {
+    
+    .offcanvas-lg {
+      background: transparent !important;
+    }
+
+    .offcanvas-lg a {
+      color: rgba(255, 255, 255, 0.5);
+    }
+
+    .offcanvas-lg .nav-link .active {
+      color: rgb(255, 255, 255) !important;
+      font-weight: bold;
+    }
+
+    .offcanvas-lg a:hover {
+      color: rgba(255, 255, 255, 0.7);
+      font-weight: bold;
+    }
+    
+}
