@@ -199,7 +199,6 @@ main {
 }
 
 /* footer */
-
 footer {
     color: var(--text-color3);
     text-align: center;
@@ -223,14 +222,6 @@ footer a:hover {
 footer i, footer i:hover {
     font-size: 1.2em;
 }
-
-/* @media (min-width: 650px) {
-    
-    #pacotes .card {
-        min-width: 500px;
-    }
-    
-} */
 
 @media (min-width: 994px) {
     
