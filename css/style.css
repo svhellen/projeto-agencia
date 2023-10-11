@@ -15,7 +15,7 @@
     /* --cor3: #060638; */
     --cor3: #f3f3f3;
     --cor4: #FFCF00;
-    --cor5: #E65B03;
+    --cor5: #4a8bb4;
 
     --text-color1: rgba(0, 0, 0, 1);
     --text-color2: rgba(0, 0, 0, 0.7);
@@ -81,7 +81,8 @@ header {
     background: var(--cor3) !important;
 }
 
-#logo {
+#logo,
+#perfil {
     width: 80px;
 }
 
@@ -109,6 +110,28 @@ header {
     color: var(--text-color1);
     background: var(--cor4);
     border: var(--cor4);
+}
+
+.login ul {
+    list-style: none;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.login .nav-item .nav-link {
+    color: var(--bg-color) !important;
+    background: var(--cor5);
+    padding: .6rem 1rem;
+    border-radius: .3rem;
+}
+
+.login .nav-item .active {
+    color: var(--cor4) !important;
+    background: transparent;
+    border: 1px solid var(--cor4);
 }
 
 #carousel-principal {
